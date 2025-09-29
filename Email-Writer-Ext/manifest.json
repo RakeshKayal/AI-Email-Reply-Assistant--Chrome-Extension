@@ -1,0 +1,27 @@
+{
+    "name": "AI-Power Email Writter",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://mail.google.com/*",
+        "http://localhost:8080/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://mail.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+        "default_title": "AI-Power Email Writter"
+    }
+}
