@@ -1,42 +1,48 @@
-AI Email Reply Extension 🚀
-An AI-powered Chrome extension built with Java Spring Boot and Google Gemini API to generate instant, smart email replies.
+# 🚀 AI Email Reply Assistant — Chrome Extension
 
-📘 Description
-AI-powered Chrome extension using Java Spring Boot and Google Gemini API to generate intelligent email replies with one-click convenience.
+An **AI-powered Chrome extension** that generates smart, context-aware email replies using **Google Gemini API** — built with **Java Spring Boot** on the backend and **JavaScript + Chrome Extension API** on the frontend.
 
-📂 Features
-Automatically adds an AI Reply button in Gmail's reply tab.
-Generates context-aware email responses instantly.
-Seamless integration with Gmail UI.
-Backend built with Java Spring Boot.
-Uses Google Gemini API for natural language processing.
-🛠️ Tech Stack
-Frontend: JavaScript, Chrome Extensions API
-Backend: Java Spring Boot
-AI Integration: Google Gemini API
-🚀 How It Works
+---
+
+## 📘 Description
+
+**AI Email Reply Assistant** seamlessly integrates with **Gmail**, adding a one-click “AI Reply” button inside the reply box.  
+When clicked, it uses the **Gemini API** to analyze the email context and generate a natural, intelligent response instantly.
+
+---
+
+## ✨ Features
+
+- 🧠 **AI-Generated Replies** — Automatically crafts context-aware email responses.  
+- 💌 **Gmail Integration** — Injects an “AI Reply” button directly into Gmail’s reply interface.  
+- ⚡ **One-Click Convenience** — Instantly get a professional or friendly email draft.  
+- 🔐 **Secure Backend** — Spring Boot server hides the Gemini API key.  
+- 🧩 **Customizable** — Easily extend to support tone selection or auto-summarization.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | JavaScript, Chrome Extensions API |
+| **Backend** | Java Spring Boot |
+| **AI Integration** | Google Gemini API |
+| **Tools** | Maven, REST API, JSON |
+
+---
+
+## 🚀 How It Works
+
 Install the Extension: Add the Chrome extension to your browser.
 Open Gmail: Go to your Gmail inbox.
 Reply to an Email: Click the reply button for any email.
 Click 'AI Reply': An additional button appears — click it to generate a reply.
-🛠️ Installation
-# Clone the repository
+
+---
+
+## ⚙️ Installation Guide
+
+### 🔹 1. Clone the Repository
+```bash
 git clone https://github.com/RakeshKayal/AI-Email-Reply-Assistant--Chrome-Extension.git
-
-# Navigate to the backend
-cd EmailGenerator/backend
-
-# Build and run the Spring Boot application
-./mvnw spring-boot:run
-
-# Load the extension into Chrome
-1. Open Chrome and go to chrome://extensions/
-2. Enable Developer Mode (toggle on top right)
-3. Click "Load unpacked" and select the extension folder
-🧩 API Configuration
-Obtain Google Gemini API credentials.
-Add the API key in the backend configuration (application.properties).
-🛠️ Usage
-Open an email in Gmail.
-Click Reply.
-Hit the AI Reply button — your AI-generated response will appear!
