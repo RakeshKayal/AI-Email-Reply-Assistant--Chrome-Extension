@@ -46,3 +46,4 @@ Click 'AI Reply': An additional button appears — click it to generate a reply.
 ### 🔹 1. Clone the Repository
 ```bash
 git clone https://github.com/RakeshKayal/AI-Email-Reply-Assistant--Chrome-Extension.git
+
